@@ -25,12 +25,13 @@ body{font-family: 'Source Sans Pro', sans-serif;
 
 /****** HEADER ******/
 
-#home .full-width{
+header#home{
     height: 800px;
     background: url("../img/hero.png");
     background-color: #ebebeb;
     background-size: cover;
 }
+
 header h1 { 
     font-family: 'Lora', serif;
     font-size: 30px;
@@ -69,7 +70,6 @@ header h2 span {
 #about .full-width {
     padding: 80px 0;
 }
-
 #about h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
